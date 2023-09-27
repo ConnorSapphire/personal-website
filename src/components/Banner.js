@@ -62,9 +62,10 @@ export const Banner = ({isVisible, setActiveLink}) => {
                                     {"Hi I'm Connor Smith: "}
                                     <span className="wrap">
                                         {text}
+                                        <span className="cursor">|</span>
                                     </span>
                                 </h1>
-                                <p>This will be text about me. Lorem ipsum.</p>
+                                <p>I am a passionate student interested in software and web development. I am currently completing my penultimate year of software development and computer science studies at the University of Sydney. I am hoping to find a place to expand my knowledge and learn new skills in an industry environment.</p>
                                 <button onClick={() => {window.location.href="#contact"; }}>Let's Connect <ArrowRightCircle size={25}/></button>
                             </div>}
                         </TrackVisibility>

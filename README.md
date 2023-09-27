@@ -10,9 +10,20 @@ In the project directory, you can run:
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+If you want the subscribe form to work, you need to setup a .env file in the
+parent directory with global variables for all the MailChimp info you will need
+to form the custom MailChimp URL.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+### `node server.js`
+
+Runs the Express NodeJS webapplication that handles sending emails from the contact form.
+You will need to create an Ethereal email and enter the correct details in "user" and
+"pass" to be able to have the contact form work for you.
+
+This must be run parallel to the website for the contact form to work.
 
 ### `npm test`
 

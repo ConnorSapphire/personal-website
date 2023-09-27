@@ -57,7 +57,7 @@ export const Project = ({isVisible, setActiveLink}) => {
                     {({isVisible}) =>
                         <div className={isVisible ? "animate__animated animate__slideInLeft" : ""}>
                             <h2>Projects</h2>
-                            <p>The Illustrious Projects I Have Been A Part Of.</p>
+                            <p>The fantastic projects I have been able to contribute to!</p>
                             <Tab.Container id="projects-tabs" defaultActiveKey="first">
                                 <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                                     <Nav.Item>

@@ -42,23 +42,51 @@ export const Skills = ({isVisible, setActiveLink}) => {
                             <h2>
                                 Skills
                             </h2>
-                            <p>Lorem Ipsum, Dolores Marry Me<br></br>Lorem Ipsum.</p>
+                            <p>The skills I currently have.<br></br>With more always in development.</p>
                             <Carousel responsive={responsive} infinite={true} className="skill-slider">
                                 <div className="item">
-                                    <img src={meter1} alt="Skill 1 Image"/>
-                                    <h5>Web Development</h5>
-                                </div>
-                                <div className="item">
-                                    <img src={meter2} alt="Skill 2 Image"/>
-                                    <h5>Brand Identity</h5>
-                                </div>
-                                <div className="item">
-                                    <img src={meter3} alt="Skill 3 Image"/>
-                                    <h5>Logo Design</h5>
+                                    <img src={meter1} alt="Skill 4 Image"/>
+                                    <h5>Software Development</h5>
                                 </div>
                                 <div className="item">
                                     <img src={meter1} alt="Skill 4 Image"/>
                                     <h5>Web Development</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={meter1} alt="Skill 1 Image"/>
+                                    <h5>Java Development</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={meter2} alt="Skill 2 Image"/>
+                                    <h5>Python Development</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={meter3} alt="Skill 3 Image"/>
+                                    <h5>C Development</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={meter3} alt="Skill 3 Image"/>
+                                    <h5>React</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={meter3} alt="Skill 3 Image"/>
+                                    <h5>HTML Language</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={meter3} alt="Skill 3 Image"/>
+                                    <h5>CSS Language</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={meter3} alt="Skill 3 Image"/>
+                                    <h5>JavaScript Development</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={meter3} alt="Skill 3 Image"/>
+                                    <h5>Agile Programming</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={meter3} alt="Skill 3 Image"/>
+                                    <h5>Team Programming With Git</h5>
                                 </div>
                             </Carousel>
                         </div>
