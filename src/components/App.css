@@ -511,7 +511,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   height: 100%;
 }
 
+.proj-imgbx img {
+  max-height: 260px;
+}
+
 .proj-txtx {
+  color: #fff;
   position: absolute;
   text-align: center;
   top: 65%;
