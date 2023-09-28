@@ -1,3 +1,8 @@
+# Attributions
+
+Website design is thanks to Judy Gab (webdecoded).
+Various images are thanks to Judy Gab (webdecoded).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -23,11 +23,13 @@ export const Footer = ({isVisible, setActiveLink}) => {
                     </Col>
                     <Col sm={6} className="text-center text-sm-end">
                         <div className="social-icon">
-                            <a href={process.env.REACT_APP_LINKED_IN} target="_blank" rel="noopener noreferrer"><img src={navIcon1} alt="Linked In Icon"/></a>
-                            <a href={process.env.REACT_APP_FACEBOOK} target="_blank" rel="noopener noreferrer"><img src={navIcon2} alt="Facebook Icon"/></a>
-                            <a href={process.env.REACT_APP_INSTAGRAM} target="_blank" rel="noopener noreferrer"><img src={navIcon3} alt="Instagram Icon"/></a>
+                            <a href={process.env.REACT_APP_LINKED_IN} target="_blank" rel="noopener noreferrer"><img src={navIcon1} alt="Linked In"/></a>
+                            <a href={process.env.REACT_APP_FACEBOOK} target="_blank" rel="noopener noreferrer"><img src={navIcon2} alt="Facebook"/></a>
+                            <a href={process.env.REACT_APP_INSTAGRAM} target="_blank" rel="noopener noreferrer"><img src={navIcon3} alt="Instagram"/></a>
                         </div>
-                        <p>Copyright 2023. All Rights Reserved by Connor Smith.</p>
+                        <p>Copyright 2023. All Rights Reserved by Connor Smith.
+                            <br/>Some images and designs attributed to Judy Gab (webdecoded).
+                        </p>
                     </Col>
                 </Row>
             </Container>

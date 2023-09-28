@@ -1,0 +1,50 @@
+<svg
+   width="204"
+   height="204"
+   viewBox="0 0 204 204"
+   fill="none"
+   xmlns="http://www.w3.org/2000/svg">
+  <path
+     d="m 187.639,69.9021 c 5.45292,-2.043708 11.58684,0.712241 13.057,6.3463 5.54184,21.237941 4.10545,43.80237 -4.26,64.2976 -9.69955,23.76377 -28.00091,42.99719 -51.254,53.863 -23.25391,10.86619 -49.748555,12.56555 -74.1999,4.76 C 46.531045,191.36355 25.9211,174.628 13.2642,152.299 0.607328,129.97 -3.16618,103.69 2.6965,78.7016 8.55918,53.7134 24.129535,31.682462 43.895324,16.984812 58.336696,6.246347 68.45785,3.5131995 73.261283,3.7504857 79.022986,4.0351098 83.68912,5.171569 85.139661,12.09661 86.675447,19.428621 80.93654,22.380661 76.387657,24.747166 64.597148,30.881046 65.239717,31.064435 57.448482,35.455188 40.320567,45.10763 27.875856,63.695513 23.2251,83.518 c -4.650644,19.82201 -1.657238,40.67002 8.3831,58.383 10.040362,17.71302 26.3897,30.989 45.7861,37.181 19.3965,6.192 40.41451,4.84259 58.8607,-3.777 18.44581,-8.61941 32.96417,-23.87593 40.659,-42.727 6.35917,-15.57893 7.67028,-32.666366 3.901,-48.89 -1.31772,-5.671666 1.37192,-11.742508 6.824,-13.7859 z"
+     fill="url(#paint0_linear_16_349)"
+     id="path1"/>
+  <defs
+     id="defs3">
+    <rect
+       x="71.162791"
+       y="55.182375"
+       width="53.684211"
+       height="14.98164"
+       id="rect3" />
+    <linearGradient
+       id="paint0_linear_16_349"
+       x1="-12.4348"
+       y1="91.2145"
+       x2="228.124"
+       y2="92.098"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#AA367C"
+         id="stop2" />
+      <stop
+         offset="1"
+         stop-color="#4A2FBD"
+         id="stop3" />
+    </linearGradient>
+  </defs>
+  <text
+     xml:space="preserve"
+     id="text3"
+     style="white-space:pre;shape-inside:url(#rect3);fill:#ffffff" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:36.3237px;font-family:'Centra No2';-inkscape-font-specification:'Centra No2, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:3.02697"
+     x="64.429779"
+     y="115.75809"
+     id="text4"
+     transform="scale(1.0063232,0.99371653)"><tspan
+       id="tspan4"
+       x="64.429779"
+       y="115.75809"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:36.3237px;font-family:'Centra No2';-inkscape-font-specification:'Centra No2, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:3.02697">70%</tspan></text>
+</svg>

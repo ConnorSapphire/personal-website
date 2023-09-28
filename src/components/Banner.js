@@ -4,23 +4,14 @@ import { ArrowRightCircle } from "react-bootstrap-icons";
 import headerImg from "../assets/images/header-img.svg"
 import TrackVisibility from "react-on-screen";
 import "animate.css";
-import { NavBar } from "./NavBar";
 
 export const Banner = ({isVisible, setActiveLink}) => {
     const [loopNumber, setLoopNumber] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
-    const toRotate = ["Software Developer", "Web Developer", "Student"];
+    const toRotate = ["Software Developer", "Web Developer", "Student", "Faggot"];
     const [text, setText] = useState("");
     const [delta, setDelta] = useState(300 - Math.random() * 100);
-    const period = 2000;
-
-    useEffect(() => {
-        let Ticker = setInterval(()=> {
-            tick()
-        }, delta);
-
-        return () => { clearInterval(Ticker) };
-    }, [text]);
+    const period = 300;
 
     const tick = () => {
         let i = loopNumber % toRotate.length;
@@ -39,9 +30,17 @@ export const Banner = ({isVisible, setActiveLink}) => {
         } else if (isDeleting && updatedText === "") {
             setIsDeleting(false);
             setLoopNumber(loopNumber + 1);
-            setDelta(500);
+            setDelta(period);
         }
     };
+
+    useEffect(() => {
+        let Ticker = setInterval(()=> {
+            tick()
+        }, delta);
+
+        return () => { clearInterval(Ticker) };
+    }, [text, delta]);
 
     useEffect(() => {
         if (isVisible) {
