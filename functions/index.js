@@ -22,11 +22,14 @@ const logger = require("firebase-functions/logger");
 
 
 const transporter = nodemailer.createTransport({
-  host: "smtp.ethereal.email",
-  port: 587,
+  service: "gmail",
   auth: {
-    user: "mozell.hagenes34@ethereal.email",
-    pass: "3HpnmrUQSbFXGwZhWY",
+    type: "OAuth2",
+    user: process.env.GMAIL_USER,
+    pass: process.env.GMAIL_PASS,
+    clientId: process.env.CLIENT_ID,
+    clientSecret: process.env.CLIENT_SECRET,
+    refreshToken: process.env.REFRESH_TOKEN,
   },
 });
 
@@ -49,7 +52,7 @@ exports.sendEmail = onRequest((req, res) => {
       logger.info("Generating email...");
       const mailData = {
         from: name, // Sender
-        to: "mozell.hagenes34@ethereal.email", // Receivers
+        to: process.env.EMAIL_RECEIVER, // Receivers
         subject: "Portfolio Contact Form",
         html: `<p>Name: ${name}</p>
         <p>Email: ${email}</p>
