@@ -18,7 +18,7 @@ export const Footer = ({isVisible, setActiveLink}) => {
             <Container>
                 <Row className="align-item-center">
                     <MailchimpForm />
-                    <Col sm={6}>
+                    <Col sm={6} className="footer-logo">
                         <img src={logo} alt="Logo" />
                     </Col>
                     <Col sm={6} className="text-center text-sm-end">

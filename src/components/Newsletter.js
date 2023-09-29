@@ -27,18 +27,22 @@ export const Newsletter = ({ onValidated, status, message }) => {
         <Col lg={12}>
             <div className="newsletter-bx">
                 <Row>
-                    <Col lg={12} md={6} xl={5}>
+                    <Col xs={12} sm={12} md={6} xl={5}>
                         <h3>Subscribe to my Newsletter</h3>
                         {status === "sending" && <Alert>Sending....</Alert>}
                         {status === "error" && <Alert variant="danger">{message}</Alert>}
                         {status === "success" && <Alert variant="success">{message}</Alert>}
                     </Col>
-                    <Col md={6} xl={7}>
+                    <Col xs={12} sm={12} md={6} xl={7}>
                         <form onSubmit={handleSubmit}>
-                            <div className="new-email-bx">
-                                <input value={email} type="email" onChange={(e) => setEmail(e.target.value)} placeholder="Email Address" />
-                                <button type="submit">Submit</button>
-                            </div>
+                            <Row className="new-email-bx">
+                                <Col xs={12} sm={12} md={6} xl={7}>
+                                    <input value={email} type="email" onChange={(e) => setEmail(e.target.value)} placeholder="Email Address" />
+                                </Col>
+                                <Col xs={12} sm={12} md={6} xl={5}>
+                                    <button type="submit">Submit</button>
+                                </Col>
+                            </Row>
                         </form>
                     </Col>
                 </Row>
