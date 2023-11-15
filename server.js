@@ -38,7 +38,7 @@ app.post('/contact', (req, res) => {
     
     const mailData = {
         from: name,  // Sender
-        to: "mozell.hagenes34@ethereal.email",   // Receivers
+        to: "***@ethereal.email",   // Receivers
         subject: 'Portfolio Contact Form',
         html: `<p>Name: ${name}</p>
         <p>Email: ${email}</p>

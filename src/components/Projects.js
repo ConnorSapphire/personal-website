@@ -5,9 +5,12 @@ import projImg1 from "../assets/images/project-img1.png"
 import projImg2 from "../assets/images/project-img2.png"
 import projImg3 from "../assets/images/project-img3.png"
 import projToDo from "../assets/images/project-todolist.png"
+import projTimer from "../assets/images/project-timer.png"
 import projPaintTreble from "../assets/images/project-painttreble.png"
+import projSproutLand from "../assets/images/project-sproutland.png"
 import projGekkoBot from "../assets/images/project-gekkobot.png"
 import projIncoming from "../assets/images/project-incoming.png"
+import projInfurior from "../assets/images/project-infurior.png"
 import projOurVoice from "../assets/images/project-ourvoice.png"
 import projCarShowcase from "../assets/images/project-carshowcase.png"
 import projVendingMachine from "../assets/images/project-vendingmachine.png"
@@ -30,12 +33,6 @@ export const Project = ({isVisible, setActiveLink}) => {
     //     imgUrl: projImg2,
     //     link: ""
     // },
-    // {
-    //     title: "Infurior",
-    //     description: "Python Game",
-    //     imgUrl: projImg3,
-    //     link: ""
-    // },
     {
         title: "Gekko Bot",
         description: "Python Discord API",
@@ -43,12 +40,30 @@ export const Project = ({isVisible, setActiveLink}) => {
         link: "https://github.com/ConnorSapphire/gekko-bot"
     },
     {
+        title: "Sprout Land",
+        description: "Python Game",
+        imgUrl: projSproutLand,
+        link: "https://github.com/ConnorSapphire/Sprout-Land"
+    },
+    {
         title: "To Do List",
         description: "React Application",
         imgUrl: projToDo,
         link: "https://github.com/ConnorSapphire/Todo-Task-Manager"
     },
-  ];
+    {
+        title: "Timer",
+        description: "HTML, CSS, and JavaScript Website",
+        imgUrl: projTimer,
+        link: "https://github.com/ConnorSapphire/timer"
+    },
+    {
+        title: "You Are Infurior",
+        description: "Processing Game",
+        imgUrl: projInfurior,
+        link: "https://github.com/ConnorSapphire/You_Are_Infurior"
+    },
+];
 
   const teamProjects = [
     {
