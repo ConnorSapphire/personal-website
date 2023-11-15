@@ -82,7 +82,20 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This website is deployed using firebase. This public repository doesn't have the necessary access to
+deploy. But if you set up your own firebase hosting service, you can use:
+
+`npm run build`
+
+To create a build ready for deployment.
+
+`firebase deploy --only hosting`
+
+To deploy the frontend website.
+
+`firebase deploy --only functions`
+
+To deploy the backend email service.
 
 ### `npm run build` fails to minify
 
